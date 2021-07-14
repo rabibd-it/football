@@ -111,6 +111,11 @@ nav li a {
     margin-top: 50px;
 }
 
+.top-banner:hover .banner-thumbnail img {
+    transform: scale(1.5) rotate(-20deg);
+    transition: transform 3s ease-in-out;
+}
+
 .banners {
     width: 1160px;
     display: flex;
