@@ -279,3 +279,42 @@ nav li a {
 .gallery:hover .gallery-photo img {
     border-radius: 50%;
 }
+
+/* ===================
+   Footer
+====================== */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .logo img {
+    height: 110px;
+}
+
+footer .social {
+    padding: 20px 0;
+}
+
+footer .social a {
+    width: 32px;
+    height: 32px;
+    padding: 8px 10px;
+    margin: 0 10px;
+    background-color: #E7E7E8;
+    border-radius: 50%;
+}
+
+footer .social a:hover {
+    background-color: #E02C6D;
+    color: #fff;
+}
+
+footer .copyright p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
