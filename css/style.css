@@ -138,3 +138,45 @@ nav li a {
     width: 556px;
     height: 438px;
 }
+
+
+/* ===================
+   Players
+====================== */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    margin-top: 70px;
+}
+
+.player {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    max-height: 474px;
+}
+
+.player .player-thumbnail img {
+    width: 300px;
+    height: 256px;
+}
+
+.player-info .player-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191F;
+    margin: 10px 0;
+}
+
+.player-info .player-detail {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+    margin: 0;
+}
