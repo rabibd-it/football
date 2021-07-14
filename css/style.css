@@ -112,7 +112,7 @@ nav li a {
 }
 
 .top-banner:hover .banner-thumbnail img {
-    transform: scale(1.5) rotate(-20deg);
+    transform: scale(1.5) rotate(-10deg);
     transition: transform 3s ease-in-out;
 }
 
